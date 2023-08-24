@@ -1,23 +1,22 @@
 YouTube: 18.23.35  
-YouTube-Extended: 18.29.38  
-Music (arm-v7a): 6.13.52  
-Music (arm64-v8a): 6.13.52  
-Music-Extended (arm64-v8a): 6.13.52  
-Music-Extended (arm-v7a): 6.13.52  
+Music (arm64-v8a): 6.15.52  
+Music (arm-v7a): 6.15.52  
+Twitter: 10.4.0-release.0  
 Twitch: 15.4.1  
-Twitter: 10.1.0-release.0  
-TikTok: 30.6.4  
-Reddit: 2023.30.0  
-Messenger: 420.0.0.15.50  
+TikTok: 31.0.1  
+Reddit: 2023.33.1  
+Messenger: 423.0.0.25.113  
+Music-Extended (arm64-v8a): 6.15.52  
+Music-Extended (arm-v7a): 6.15.52  
+YouTube-Extended: 18.32.39  
 
 Install [Vanced Microg](https://github.com/TeamVanced/VancedMicroG/releases) for non-root YouTube or YT Music  
 
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)  
-
 ---
 Changelog:  
 CLI: j-hc/revanced-cli-2.23.0-all.jar  
-Integrations: ReVanced/revanced-integrations-0.115.0.apk  
+Integrations: ReVanced/revanced-integrations-0.115.1.apk  
 Patches: ReVanced/revanced-patches-2.187.0.jar  
 
 ### [2.187.0](https://github.com/ReVanced/revanced-patches/compare/v2.186.0...v2.187.0) (2023-08-02)
@@ -38,43 +37,27 @@ Patches: ReVanced/revanced-patches-2.187.0.jar
 
 ---
 CLI: inotia00/revanced-cli-2.22.2-all.jar  
-Integrations: inotia00/revanced-integrations-0.114.12.apk  
-Patches: inotia00/revanced-patches-2.186.12.jar  
+Integrations: YT-Advanced/revanced-integrations-0.117.1.apk  
+Patches: YT-Advanced/revanced-patches-2.188.2.jar  
 
-YouTube
-==
-- feat(youtube): add `hide-latest-videos-button` patch [ScreenShot](https://imgur.com/a/VT7Rd2L)
-- feat(youtube/enable-old-quality-layout): match with the official Revanced
-- feat(youtube/enable-new-thumbnail-preview): forcibly disable when the switch is off
-- feat(youtube/hide-comment-component): `hide preview comment` hides the dots of live comments [ScreenShot](https://imgur.com/a/THMek2L)
-- feat(youtube/hide-general-ads): update filter
-- feat(youtube/settings): remove github link in the settings https://github.com/inotia00/ReVanced_Extended/issues/1278
-- feat(youtube/spoof-app-version): add 18.09.39 to version list [to revert new library tab ui](https://github.com/inotia00/ReVanced_Extended/issues/630)
-- fix(youtube): some dependence is missing https://github.com/inotia00/ReVanced_Extended/issues/1291
-- fix(youtube/enable-new-splash-animation): remove android version restriction
-- refactor(youtube/litho): filter litho components using prefix tree
-- feat(youtube/translations): update translation
-`Arabic`, `Bengali`, `Brazilian`, `Chinese Simplified`, `Chinese Traditional`, `French`, `German`, `Greek`, `Hungarian`, `Indonesian`, `Italian`, `Japanese`, `Korean`, `Polish`, `Romanian`, `Russian`, `Spanish`, `Turkish`, `Ukrainian`, `Vietnamese`
-feat(youtube/language-switch): add a new type of string
+### [2.188.2](https://github.com/YT-Advanced/ReX-patches/compare/v2.188.1...v2.188.2) (2023-08-23)
 
 
-YouTube Music
-==
-- refactor(music/litho): filter litho components using prefix tree
-- feat(music/translations): update translation
-`Czech`, `Indonesian`, `Polish`, `Russian`, `Ukrainian`
+### Bug Fixes
 
+* **youtube/alternative-video-thumbnails:** Only can be included for Youtube ([7aaba99](https://github.com/YT-Advanced/ReX-patches/commit/7aaba99578a0d99233ee9fc8181663d519cb1c5a))
 
-Etc
-==
-- final release will be rolled out next week
+* **SponsorBlock:** Some setting cannot be imported/exported https://github.com/YT-Advanced/YT-Advanced/issues/47
 
+* **youtube/custom-filter:** Wrong description https://github.com/YT-Advanced/YT-Advanced/issues/55
 
-※ Compatible ReVanced Manager: [RVX Manager v1.5.1 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.5.1)
+* **youtube/shorts:** Exclude `optimize-resource` by default https://github.com/YT-Advanced/YT-Advanced/issues/49
 
-[Crowdin translation]
-- [YouTube/European Countries](https://crowdin.com/project/revancedextendedeu)
-- [YouTube/Other Countries](https://crowdin.com/project/revancedextended)
-- [YT Music](https://crowdin.com/project/revanced-music-extended)
+### Features
 
+* **youtube:** Add support `v18.32.36`, `v18.32.39` ([e028129](https://github.com/YT-Advanced/ReX-patches/commit/e0281295854b10a69370b8e51d30c837cb80f802))
+
+### Misc
+
+* Update translation
 ---  
