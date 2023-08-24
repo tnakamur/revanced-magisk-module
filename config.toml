@@ -74,22 +74,20 @@ enabled = false
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
 
 [Music-Extended] # unmaintained
-enabled = false
 app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+rv-brand = "YT-Advanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmirror-arch = "both"
 
 [YouTube-Extended] # unmaintained
-enabled = false
 app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
+patches-source = "YT-Advanced/ReX-patches"
+integrations-source = "YT-Advanced/ReX-integrations"
 cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
+rv-brand = "YT-Advanced Extended"
 build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
