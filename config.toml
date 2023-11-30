@@ -68,12 +68,22 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 apkmirror-arch = "arm64-v8a"
 
 [Facebook]
+enabled = true
 build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+version = "auto"
+uptodown-dlurl = "https://facebook.en.uptodown.com/android"
 
 [Spotify]
+enabled = true
 build-mode = "apk"
+version = "auto"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+
+[Instagram]
+enabled = true
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
+apkmirror-arch = "arm64-v8a"
 
 [Citra]
 enabled = false
