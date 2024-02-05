@@ -53,8 +53,7 @@ uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 [Instagram]
 build-mode = "apk"
 version = "auto"
-apkmirror-dlurl = "https://instagram.en.uptodown.com/android"
-apkmirror-arch = "arm64-v8a"
+uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 
 [IconPackStudio]
 enabled = false
@@ -68,7 +67,7 @@ cli-source = "inotia00/revanced-cli"
 excluded-patches = "'Custom branding name YouTube Music' 'Custom branding icon YouTube Music' 'Custom package name' 'Enable debug logging'"
 included-patches = "'optimize-resource'"
 build-mode = "module"
-archive-dlurl = "https://youtube-music.en.uptodown.com/android"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 arch = "arm64-v8a"
 
 [YouTube-Extended]
@@ -79,4 +78,4 @@ cli-source = "inotia00/revanced-cli"
 excluded-patches = "'Custom branding name YouTube' 'Custom branding icon YouTube' 'Custom package name' 'Enable debug logging'"
 included-patches = "'optimize-resource'"
 build-mode = "module"
-archive-dlurl = "https://youtube.en.uptodown.com/android"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
