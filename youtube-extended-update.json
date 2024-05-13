@@ -1,6 +1,6 @@
 {
-  "version": "v19.07.40",
-  "versionCode": 60,
-  "zipUrl": "https://github.com/tnakamur/revanced-magisk-module/releases/download/60/youtube-revanced-magisk-v19.07.40-all.zip",
+  "version": "v19.16.39",
+  "versionCode": 65,
+  "zipUrl": "https://github.com/tnakamur/revanced-magisk-module/releases/download/65/youtube-revanced-magisk-v19.16.39-all.zip",
   "changelog": "https://raw.githubusercontent.com/tnakamur/revanced-magisk-module/update/build.md"
 }
