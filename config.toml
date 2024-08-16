@@ -72,17 +72,25 @@ arch = "arm64-v8a"
 [Facebook]
 build-mode = "apk"
 version = "auto"
-uptodown-dlurl = "https://facebook.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
+uptodown-dlurl = "https://facebook.en.uptodown.com/android" # fallback
+arch = "arm64-v8a"
+apkmirror-dpi = "nodpi"
 
 [Spotify]
 build-mode = "apk"
 version = "auto"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+arch = "arm64-v8a"
+apkmirror-dpi = "nodpi"
 
 [Instagram]
 build-mode = "apk"
 version = "auto"
-uptodown-dlurl = "https://instagram.en.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/" 
+uptodown-dlurl = "https://instagram.en.uptodown.com/android" # fallback
+arch = "arm64-v8a"
+apkmirror-dpi = "nodpi"
 
 [IconPackStudio]
 enabled = false
