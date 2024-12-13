@@ -69,7 +69,7 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 [Twitter]
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
-arch = "universall"
+arch = "universal"
 apkmirror-dpi = "120-640dpi"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
