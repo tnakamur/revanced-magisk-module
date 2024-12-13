@@ -67,8 +67,9 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
 [Twitter]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
 build-mode = "apk"
+uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 # arch = "universal"
 # apkmirror-dpi = "120-640dpi"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
@@ -84,6 +85,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
 
 [Spotify]
+build-mode = "apk"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Facebook]
