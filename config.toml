@@ -32,7 +32,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 [Spotify]
-build-mode = "apk"
+build-mode = "module"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 
@@ -65,9 +65,10 @@ uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
 [Twitter]
-#apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
-build-mode = "apk"
-dpi = "120-640dpi"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter"
+version = "10.48.0-release.0"
+build-mode = "both"
+dpi = "nodpi"
 uptodown-dlurl = "https://twitter.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
@@ -90,12 +91,12 @@ arch = "arm64-v8a"
 apkmirror-dpi = "nodpi"
 
 [Instagram]
-build-mode = "apk"
+build-mode = "both"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android" # fallback
 arch = "arm64-v8a"
-apkmirror-dpi = "nodpi"
+apkmirror-dpi = "360-480dpi"
 
 [IconPackStudio]
 enabled = false
