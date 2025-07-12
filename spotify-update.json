@@ -1,6 +1,6 @@
 {
-  "version": "v9.0.60.614 (patches 5.31.0)",
-  "versionCode": 139,
-  "zipUrl": "https://github.com/tnakamur/revanced-magisk-module/releases/download/139/spotify-revanced-magisk-v9.0.60.614-all.zip",
+  "version": "v9.0.62.603 (patches 5.31.1)",
+  "versionCode": 140,
+  "zipUrl": "https://github.com/tnakamur/revanced-magisk-module/releases/download/140/spotify-revanced-magisk-v9.0.62.603-all.zip",
   "changelog": "https://raw.githubusercontent.com/tnakamur/revanced-magisk-module/update/build.md"
 }
