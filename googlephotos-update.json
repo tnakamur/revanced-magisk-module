@@ -1,6 +1,6 @@
 {
-  "version": "v7.58.0.853810532 (patches 5.47.0.rvp)",
-  "versionCode": 167,
-  "zipUrl": "https://github.com/tnakamur/revanced-magisk-module/releases/download/167/googlephotos-revanced-magisk-v7.58.0.853810532-arm64-v8a.zip",
+  "version": "v7.59.0.856624550 (patches 5.48.0.rvp)",
+  "versionCode": 168,
+  "zipUrl": "https://github.com/tnakamur/revanced-magisk-module/releases/download/168/googlephotos-revanced-magisk-v7.59.0.856624550-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/tnakamur/revanced-magisk-module/update/build.md"
 }
