@@ -1,6 +1,6 @@
 Facebook: 490.0.0.63.82  
-GooglePhotos: 7.59.0.856624550  
-Instagram: 412.0.0.35.87  
+GooglePhotos: 7.63.0.869312946  
+Instagram: 416.0.0.47.66  
 Twitter: 10.48.0-release.0  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
@@ -9,8 +9,8 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: ReVanced/patches-5.48.0.rvp  
-[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.48.0)  
+Patches: ReVanced/patches-5.50.2.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.50.2)  
 
 Skipped:  
-Patches: inotia00/patches-5.14.1.rvp    
+Patches: inotia00/patches-5.14.1.rvp      
