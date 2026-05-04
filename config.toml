@@ -75,12 +75,12 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 uptodown-dlurl = "https://twitch.en.uptodown.com/android"
 
-[Instagram-Ex]
-build-mode = "module"
+[Instagram]
+app-name = "instagram"
 patches-source = "crimera/piko"
 cli-source = "MorpheApp/morphe-cli"
+rv-brand = "Piko"
+build-mode = "module"
 apkmirror-dlurl = "https://apkmirror.com/apk/instagram/instagram-instagram"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 arch = "arm64-v8a"
-app-name = "instagram"
-rv-brand = "morphe-piko"
