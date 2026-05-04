@@ -1,6 +1,6 @@
 {
-  "version": "v378.0.0.52.68 (patches 5.31.2)",
-  "versionCode": 141,
-  "zipUrl": "https://github.com/tnakamur/revanced-magisk-module/releases/download/141/instagram-revanced-magisk-v378.0.0.52.68-arm64-v8a.zip",
+  "version": "v426.0.0.37.68 (patches dev.3.mpp)",
+  "versionCode": 177,
+  "zipUrl": "https://github.com/tnakamur/revanced-magisk-module/releases/download/177/instagram-morphe-module-v426.0.0.37.68-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/tnakamur/revanced-magisk-module/update/build.md"
 }
