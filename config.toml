@@ -59,7 +59,7 @@ cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
-build-mode = "module"
+build-mode = "apk"
 version = "11.81.0-release.0"
 include-stock = "split"
 
