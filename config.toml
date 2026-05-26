@@ -63,12 +63,17 @@ build-mode = "apk"
 version = "11.81.0-release.0"
 include-stock = "split"
 
-[GooglePhotos]
-build-mode = "both"
-arch = "arm64-v8a"
+[Google-Photos]
+enabled = true
+app-name = "Google Photos"
+patches-source = "RookieEnough/De-ReVanced"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "De-Vanced"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android/"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+build-mode = "both"
+version = "auto"
+arch = "arm64-v8a"
 
 [Twitch]
 enabled = false
